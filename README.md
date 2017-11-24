@@ -18,5 +18,29 @@ The SDKs allow you to build and scale Docker apps and solutions quickly and easi
 
 The Docker Engine API is a RESTful API accessed by an HTTP client such as wget or curl, or the HTTP library which is part of most modern programming languages.
 
+## cAdvisor Remote REST API Reference
+1. Pattern of API endpoint
+    http://&lt;hostname&gt;:&lt;port&gt;/api/&lt;version&gt;/&lt;request&gt;
+    
+    The current version of the API is v1.3 and there is a beta release of the v2.0 API
+    
+    Supported request types: &quot;containers,docker,events,machine,subcontainers&quot;
+    
+    Example http://localhost:8888/api/v1.3/containers
+    The result is returned in JSON format.
+2. To get information of all subcontainers http://localhost:8888/api/v1.3/subcontainers/
+3. To get information of a specific subcontainer http://localhost:8888/api/v1.3/subcontainers/&lt;subcontainername&gt;
+
+### Example 1. To get information of all subcontainers within docker container
+    http://localhost:8888/api/v1.3/subcontainers/docker
+### Example 2. To get information of a container within docker container
+    http://localhost:8888/api/v1.3/subcontainers/docker/497cec18b8114c2ecdda1efb87f7795c594d7b431a59d5c775390426093b9631
+    Containers’ name are available from the endpoint
+    http://localhost:8888/api/v1.3/subcontainers or
+    http://localhost:8888/api/v1.3/subcontainers/docker
+
+Reference
+https://github.com/google/cadvisor/blob/master/docs/api.md
+
 ## FAQ
 
