@@ -7,6 +7,8 @@ Please refer https://docs.docker.com/docker-for-windows/install/
 Please refer https://docs.docker.com/docker-for-mac/install/
 ### Ubuntu
 Please refer https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+### Virtual Machine Pre-Installed with Docker
+
 ## Exercise: Basics
 Please refer https://docs.docker.com/get-started/  and perform all the tasks under Getting started with Docker section in the documentation
 ## Docker Engine SDK and API
