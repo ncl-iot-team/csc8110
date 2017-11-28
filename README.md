@@ -51,7 +51,7 @@ https://github.com/google/cadvisor/blob/master/docs/api.md
     1. Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
     1. SDK or API (Refer https://docs.docker.com/develop/sdk/examples/ )
         
-    You may use any programming language which has a compatible Docker SDK or calls RESTful API from the program.
+    You may use any programming language which has a compatible Docker SDK or call RESTful API from the program.
     
 2. **Tips for Task 2 - Deploy a multi-service application in a Docker environment**
 
