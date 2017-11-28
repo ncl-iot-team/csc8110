@@ -61,9 +61,9 @@ https://github.com/google/cadvisor/blob/master/docs/api.md
 
     You may use any programming language to make this program. If you want to build it as a shell program, you may use a tool called 'curl' (Refer https://curl.haxx.se/docs/manpage.html). Most of the programming languages come with a native HTTP client library or you can use any third party libraries, which could enable it to call HTTP endpoints.
 
-4. Tips for Task 4: Add a docker monitorign tool
+4. Tips for Task 4: Add a docker monitoring tool
 
-Refer https://github.com/google/cadvisor
+    Refer https://github.com/google/cadvisor
 
 5. Task 5: Insert benchmark result into database
 
@@ -71,4 +71,4 @@ Refer https://github.com/google/cadvisor
 
     Insert this data into mongoDB instance created in Task 2.
     
-Refer https://docs.mongodb.com/getting-started/shell/#available-editions to understand how to use mongoDB driver in different programming languages.
+    Refer https://docs.mongodb.com/getting-started/shell/#available-editions to understand how to use mongoDB driver in different programming languages.
