@@ -48,6 +48,7 @@ https://github.com/google/cadvisor/blob/master/docs/api.md
 1. **Tips for Task 1 - Pull the webapplication image and test**
 
     It is a basic docker job which has to be performed using following methods
+    
         1. Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
         2. SDK or API (Refer https://docs.docker.com/develop/sdk/examples/ )
         
