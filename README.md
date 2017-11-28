@@ -9,6 +9,7 @@ Please refer https://docs.docker.com/docker-for-mac/install/
 Please refer https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 ### Virtual Machine Pre-Installed with Docker
 Download Virtual Box Image: https://s3.eu-west-2.amazonaws.com/ncl-share/DockerDevBox.ova
+
 Login Password: 'password'
 ## Exercise: Basics
 Please refer https://docs.docker.com/get-started/  and perform all the tasks under Getting started with Docker section in the documentation
