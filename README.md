@@ -46,20 +46,25 @@ https://github.com/google/cadvisor/blob/master/docs/api.md
 
 ## FAQ
 1. Tips for Task 1 - Pull the webapplication image and test
+
 It is a basic docker job which has to be performed using following methods
     1. Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
     2. SDK or API (Refer https://docs.docker.com/develop/sdk/examples/ )
         You may use any programming language which has a compatible Docker SDK or calls RESTful API from the program.
 2. Tips for Task 2 - Deploy a multi-service application in a Docker environment
+
 Please make sure you practised the [exercise](https://github.com/nclcloudcomputing/csc8110-2017-18#exercise-basics) given on the top of this page. Firstly perform the task in command line using docker-client as described in the practise docs. Then find the corresponding interfaces in SDK or API to do it programmatically.
 
 3. Tips for Task 3 - Load Generator
+
 You may use any programming language to make this program. If you want to build it as a shell program, you may use a tool called 'curl' (Refer https://curl.haxx.se/docs/manpage.html). Most of the programming languages come with a native HTTP client library or you can use any third party libraries, which could enable it to call HTTP endpoints.
 
 4. Tips for Task 4: Add a docker monitorign tool
+
 Refer https://github.com/google/cadvisor
 
 5. Task 5: Insert benchmark result into database
+
 Use [cAdvisor API](https://github.com/nclcloudcomputing/csc8110-2017-18#cadvisor-remote-rest-api-reference) to retrive the monitoring information.
 
 Insert this data into mongoDB instance created in Task 2.
