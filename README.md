@@ -7,8 +7,8 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 Existing Docker installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V and restart windows before running VirtualBox
 
 
-![Disable HyperV Step 1](disableHyperV-1.png?raw=true "Search for 'Turn Windows Features on or off'")
-![Disable HyperV Step 2](disableHyperV-2.png?raw=true "Disable Hyper-V")
+![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
+![Disable HyperV Step 2](disableHyper-V-2.png?raw=true "Disable Hyper-V")
 
 
 ### Windows
