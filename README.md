@@ -4,7 +4,7 @@ This repository contains essential materials and references for the practicals o
 ### Virtual Machine Pre-Installed with Docker (Recommended)
 Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Download Virtual Box Image: https://goo.gl/rBjsFk
 
-Existing Docker installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V and restart windows before running VirtualBox
+If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V and restart windows before running VirtualBox
 
 
 ![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
