@@ -2,7 +2,7 @@
 This repository contains essential materials and references for the practicals of CSC8110 Cloud computing module. Please read https://docs.docker.com/engine/docker-overview/ before doing the exercises.
 ## Installation
 ### Virtual Machine Pre-Installed with Docker (Recommended)
-Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Download Virtual Box Image: https://goo.gl/rBjsFk
+Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Download Virtual Box Image: https://goo.gl/qDNi1Z
 
 If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V and restart windows before running VirtualBox
 
