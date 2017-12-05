@@ -20,7 +20,7 @@ Please refer https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 Login Password: 'password'
 ## Exercise: Basics
-Please refer https://docs.docker.com/get-started/  and perform all the tasks under Getting started with Docker section in the documentation
+Please refer https://docs.docker.com/get-started/  and perform all the tasks up to "Part 3: Services" under Getting started with Docker section in the documentation
 ## Docker Engine SDK and API
 Docker provides an API for interacting with the Docker daemon (called the Docker Engine API), as well as SDKs for Go and Python. There are unofficial libraries for other programming languages. If you choose to use Java as your programming language, you may use https://github.com/spotify/docker-client. Unofficial libraries don't come with all the features. Some provide control over basic docker engine features only.
 
