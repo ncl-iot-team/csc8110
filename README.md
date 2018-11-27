@@ -1,12 +1,12 @@
 # CSC8110: Cloud Computing - Docker Platform
 This repository contains essential materials and references for the practicals of CSC8110 Cloud computing module. Please read https://docs.docker.com/engine/docker-overview/ before doing the exercises.
 ## Installation
-### Virtual Machine Pre-Installed with Docker (Recommended)
+### Virtual Machine with Docker Pre-Installed   (Recommended)
 Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Follow the below steps to setup a VM environment in your local machine.
 
 1. Download and install virtual box https://www.virtualbox.org/wiki/Downloads
 
-2. Download Virtual Box Image: https://nclcloudvm.page.link/jTpt
+2. Download Virtual Machine Image (with Docker Pre-Installed): https://nclcloudvm.page.link/jTpt
 
 3. Extract the zip file
 
