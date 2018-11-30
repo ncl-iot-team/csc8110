@@ -8,6 +8,8 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 
 2. Download Virtual Machine Image (with Docker Pre-Installed): https://nclcloudvm.page.link/jTpt
 
+In-case you face the error "VERR_TAR_UNEXPECTED_EOS", please use this alternative image available at https://goo.gl/BXV8M3
+
 3. Extract the zip file
 
 4. Import and run the ova file using VirtualBox. Username and password are student/student
