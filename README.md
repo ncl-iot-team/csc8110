@@ -6,7 +6,7 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 
 1. Download and install virtual box https://www.virtualbox.org/wiki/Downloads
 
-2. Download Virtual Machine Image (with Docker Pre-Installed): https://bit.ly/3lmy5I7
+2. Download Virtual Machine Image (with Docker Pre-Installed): https://bit.ly/37laNgY
 
 3. Extract the zip file
 
