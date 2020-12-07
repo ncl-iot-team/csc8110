@@ -24,7 +24,7 @@ Please refer https://docs.docker.com/docker-for-mac/install/
 ### Ubuntu
 Please refer https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
-Login Password: 'password'
+Login Password: 'cloud'
 ## Exercise: Basics
 Please refer https://docs.docker.com/get-started/  and perform all the tasks up to "Part 3: Services" under Getting started with Docker section in the documentation
 ## Docker Engine SDK and API
