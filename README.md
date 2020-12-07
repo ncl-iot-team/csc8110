@@ -25,14 +25,16 @@ Please refer https://docs.docker.com/docker-for-mac/install/
 Please refer https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 Login Password: 'cloud'
-## Exercise: Basics
-Please refer https://docs.docker.com/get-started/  and perform all the tasks up to "Part 3: Services" under Getting started with Docker section in the documentation
-### Explanation Videos
-#### Container Introduction
+
+# Explanation Videos
+## Container Introduction
 https://www.youtube.com/watch?v=EnJ7qX9fkcU
 
-#### Docker Swarm Intro
+## Docker Swarm Intro
 https://www.youtube.com/watch?v=Tm0Q5zr3FL4
+
+## Exercise: Basics
+Please refer https://docs.docker.com/get-started/  and perform all the tasks up to "Part 3: Services" under Getting started with Docker section in the documentation
 
 ## Docker Swarm
 Refer https://docs.docker.com/engine/swarm/ for basic concepts
