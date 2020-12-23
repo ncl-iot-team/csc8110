@@ -10,7 +10,7 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 
 3. Import and run the ova file using VirtualBox. Username and password are cloud/cloud
 
-If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V and restart windows before running VirtualBox
+If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V, Virtual Machine Platform, Windows Hypervisor Platform, Windows Sandbox, Windows Subsystem for Linux and restart windows before running VirtualBox
 
 
 ![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
