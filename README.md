@@ -14,7 +14,7 @@ If you have already installed Docker for Windows, existing installation and rela
 
 
 ![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
-![Disable HyperV Step 2](disableHyper-V-2.png?raw=true "Disable Hyper-V")
+![Disable HyperV Step 2](disable-HyperV.png.png?raw=true "Disable Hyper-V")
 
 
 ### Windows
