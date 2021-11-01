@@ -12,7 +12,7 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 
 2. Download Virtual Machine Image (with Docker Pre-Installed): https://bit.ly/3hML1rZ
 
-3. Import and run the ova file using VirtualBox. Username and password are cloud/cloud
+3. Import and run the ova file using VirtualBox. Username and password are student/student
 
 If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V, Virtual Machine Platform, Windows Hypervisor Platform, Windows Sandbox, Windows Subsystem for Linux and restart windows before running VirtualBox
 
