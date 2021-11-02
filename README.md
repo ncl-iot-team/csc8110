@@ -65,20 +65,14 @@ The SDKs allow you to build and scale Docker apps and solutions quickly and easi
 The Docker Engine API is a RESTful API accessed by an HTTP client such as wget or curl, or the HTTP library which is part of most modern programming languages.
 Refer https://docs.docker.com/develop/sdk/
 Python SDK Reference : https://docker-py.readthedocs.io/en/stable/
-
-3.  locustio/locust
-	1. Basic features
-	https://github.com/locustio/locust
-	1. Running in Docker
-	https://docs.locust.io/en/stable/running-locust-docker.html
 	
-4.  Mongo Database
+3.  Mongo Database
 	1. Official Website
 	https://www.mongodb.com
 	1. Docker QuickStart
 	https://hub.docker.com/_/mongo
 
-5. Google cAdvisor Remote REST API Reference
+4. Google cAdvisor Remote REST API Reference
 	1. Pattern of API endpoint
 		```
 		http://<hostname>:<port>/api/<version>/<request>
@@ -107,7 +101,7 @@ Python SDK Reference : https://docker-py.readthedocs.io/en/stable/
 		
 	Refer https://github.com/google/cadvisor/blob/master/docs/api.md
 
-6. Docker Swarm Visualizer
+5. Docker Swarm Visualizer
 Refer: https://github.com/dockersamples/docker-swarm-visualizer
 
 ### 3. Additional Hints
