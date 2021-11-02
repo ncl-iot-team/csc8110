@@ -34,7 +34,23 @@ Task1 Cloud Computing Coursework https://bit.ly/3nR14sy
 ### 2. Additional Hints
 It is a basic docker job which has to be performed using Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
 
-## Task 2: Deploy a complex web application stack in Docker Environment
+## Task 2: Load generator development
+
+### 1. Docker Engine SDK and API
+Docker provides an API for interacting with the Docker daemon (called the Docker Engine API), as well as SDKs for Go and Python. There are unofficial libraries for other programming languages. If you choose to use Java as your programming language, you may use https://github.com/spotify/docker-client. Unofficial libraries don't come with all the features. Some provide control over basic docker engine features only.
+
+The SDKs allow you to build and scale Docker apps and solutions quickly and easily. If Go or Python won’t work for you, you can use the Docker Engine API directly or any other language third-party SDKs for
+
+The Docker Engine API is a RESTful API accessed by an HTTP client such as wget or curl, or the HTTP library which is part of most modern programming languages.
+
+Refer https://docs.docker.com/develop/sdk/
+
+Python SDK Reference : https://docker-py.readthedocs.io/en/stable/
+
+### 2. Tips for Task 2 - Load Generator
+You may use any programming language to make this program. If you want to build it as a shell program, you may use a tool called 'curl' (Refer https://curl.haxx.se/docs/manpage.html). Most of the programming languages come with a native HTTP client library or you can use any third party libraries, which could enable it to call HTTP endpoints.
+
+## Task 3: Deploy a complex web application stack in Docker Environment
 
 ### 1. Tutorial Video
 
@@ -97,7 +113,7 @@ Refer: https://github.com/dockersamples/docker-swarm-visualizer
 ### 3. Additional Hints
 Refer the docker-compose.yml file in https://docs.docker.com/get-started/part5/#add-a-new-service-and-redeploy 
 
-## Task 3: Build your own Docker image and push it to the Docker Hub
+## Task 4: Build your own Docker image and push it to the Docker Hub
 
 ### 1. Tutorial Video
 
@@ -108,7 +124,7 @@ You can download the source code of the provided Java program in this link https
 
 Before you push the new built docker image to the remote Docker Hub repository, please don't forget to login with your Docker Hub account in command link interface, and tag your built image with "&lt;your username&gt;/&lt;image name&gt;". 
 
-## Task 4: Fully deploy and run the complex web application stack and undertakeperformance benchmarking activities
+## Task 5: Fully deploy and run the complex web application stack and undertake performance benchmarking activities
 
 ### 1. Tutorial Video
 
