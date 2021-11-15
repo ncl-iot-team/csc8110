@@ -45,10 +45,10 @@ You may use any programming language to make this program. If you want to build 
 
 Task2 Introduction to Docker Swarm https://bit.ly/3lBvuwh
 ### 2. Explanation References
-1. Docker Swarm Intro
+##### 1. Docker Swarm Intro
 https://www.youtube.com/watch?v=Tm0Q5zr3FL4
 Refer https://docs.docker.com/engine/swarm/ for basic concepts
-2. Docker Engine SDK and API
+##### 2. Docker Engine SDK and API
 Docker provides an API for interacting with the Docker daemon (called the Docker Engine API), as well as SDKs for Go and Python. There are unofficial libraries for other programming languages. If you choose to use Java as your programming language, you may use https://github.com/spotify/docker-client. Unofficial libraries don't come with all the features. Some provide control over basic docker engine features only.
 
 The SDKs allow you to build and scale Docker apps and solutions quickly and easily. If Go or Python won’t work for you, you can use the Docker Engine API directly.
@@ -59,35 +59,35 @@ Refer https://docs.docker.com/develop/sdk/
 
 Python SDK Reference : https://docker-py.readthedocs.io/en/stable/
 	
-3.  Mongo Database
-	1. Official Website
+##### 3.  Mongo Database
+1. Official Website
 	https://www.mongodb.com
-	1. Docker QuickStart
+1. Docker QuickStart
 	https://hub.docker.com/_/mongo
 
-4. Google cAdvisor Remote REST API Reference
-	1. Pattern of API endpoint
+##### 4. Google cAdvisor Remote REST API Reference
+1. Pattern of API endpoint
 		```
 		http://<hostname>:<port>/api/<version>/<request>
 		```
 		
-		The current version of the API is v1.3 and there is a beta release of the v2.0 API
+	The current version of the API is v1.3 and there is a beta release of the v2.0 API
 		
-    	Supported request types: &quot;containers,docker,events,machine,subcontainers&quot;
+    Supported request types: &quot;containers,docker,events,machine,subcontainers&quot;
 		
-    	Example: 
+    Example: 
 		```
 		http://localhost:8888/api/v1.3/containers
 		```
     	
 		The result is returned in JSON format.
 		
-	2. To get information of all sub containers 
+2. To get information of all sub containers 
 		```
 		http://localhost:8888/api/v1.3/subcontainers/
 		```
 		
-	3. To get information of a specific sub container 
+3. To get information of a specific sub container 
 		```
 		http://localhost:8888/api/v1.3/subcontainers/<subcontainername>
 		```
