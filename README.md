@@ -3,10 +3,12 @@ This repository contains essential materials and references for the practicals o
 
 ## Pre-Requisites
 1. Tutorial Video 
-Pre VirtualBox Tutorial https://bit.ly/2XH49Rp
+
+	Pre VirtualBox Tutorial https://bit.ly/2XH49Rp
 
 2. Virtual Machine with Docker Pre-Installed   (Recommended)
-Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Follow the below steps to setup a VM environment in your local machine.
+
+	Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Follow the below steps to setup a VM environment in your local machine.
 
 	* Download and install virtual box https://www.virtualbox.org/wiki/Downloads
 
@@ -28,10 +30,12 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 ## Task 1: Deploy a web application component in Docker Environment
 
 1. Tutorial Video
-Task1 Cloud Computing Coursework https://bit.ly/3nR14sy
+
+	Task1 Cloud Computing Coursework https://bit.ly/3nR14sy
 
 2. Additional Hints
-It is a basic docker job which has to be performed using Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
+
+	It is a basic docker job which has to be performed using Command line (Refer https://docs.docker.com/get-started/part2/#run-the-app)
 
 ## Task 2: Deploy a complex web application stack in Docker Environment
 
@@ -97,7 +101,8 @@ It is a basic docker job which has to be performed using Command line (Refer htt
 		Refer: https://github.com/dockersamples/docker-swarm-visualizer
 
 3. Additional Hints
-Refer the docker-compose.yml file in https://docs.docker.com/get-started/part5/#add-a-new-service-and-redeploy 
+
+	Refer the docker-compose.yml file in https://docs.docker.com/get-started/part5/#add-a-new-service-and-redeploy 
 
 ## Task 3: Build your own Docker image and push it to the Docker Hub
 
