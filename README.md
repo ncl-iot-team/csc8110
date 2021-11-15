@@ -19,8 +19,8 @@ Docker environment run seamlessly in Linux. It is recommended using the provided
 	Other virtualization platforms are also allowed, e.g., vmware. Additionally, if you want to use Azure Labs as your development platform, please check this video tutorial:  https://bit.ly/3BBHwLS
 
 
-	![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
-	![Disable HyperV Step 2](disable-HyperV.png?raw=true "Disable Hyper-V")
+![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
+![Disable HyperV Step 2](disable-HyperV.png?raw=true "Disable Hyper-V")
 
 3. Explanation References
 	* Container Introduction <https://www.youtube.com/watch?v=EnJ7qX9fkcU>
