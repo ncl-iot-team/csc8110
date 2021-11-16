@@ -1,4 +1,4 @@
-# CSC8110: Cloud Computing - Docker Platform
+# CSC8110/CSC8634 Cloud Computing – Assessment 1
 This repository contains essential materials and references for the practicals of CSC8110 Cloud Computing module. Please read https://docs.docker.com/engine/docker-overview/ before doing the exercises.
 
 ## Pre-Requisites
@@ -25,6 +25,7 @@ This repository contains essential materials and references for the practicals o
 ![Disable HyperV Step 2](disable-HyperV.png?raw=true "Disable Hyper-V")
 
 3. Explanation References
+
 	* Container Introduction <https://www.youtube.com/watch?v=EnJ7qX9fkcU>
 
 ## Task 1: Deploy a web application component in Docker Environment
