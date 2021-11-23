@@ -18,7 +18,7 @@ This repository contains essential materials and references for the practicals o
 
 	If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V, Virtual Machine Platform, Windows Hypervisor Platform, Windows Sandbox, Windows Subsystem for Linux and restart windows before running VirtualBox
 
-	Other virtualization platforms are also allowed, e.g., vmware. Additionally, if you want to use Azure Labs as your development platform, please check this video tutorial:  https://bit.ly/3BBHwLS
+	Other virtualization platforms are also allowed, e.g., vmware. Additionally, if you want to use Azure Labs as your development platform, please check this video tutorial:  <https://bit.ly/3l0PAjY>
 
 
 ![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
@@ -109,7 +109,7 @@ This repository contains essential materials and references for the practicals o
 
 1. Tutorial Video
 
-	Task3 Docker Build Toturial https://bit.ly/3kiOSP7
+	Task3 Docker Build Toturial <https://bit.ly/3CEas6E>
 
 2. Additional Hints
 	
