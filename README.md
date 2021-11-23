@@ -12,7 +12,7 @@ This repository contains essential materials and references for the practicals o
 
 	* Download and install virtual box https://www.virtualbox.org/wiki/Downloads
 
-	* Download Virtual Machine Image (with Docker Pre-Installed): https://bit.ly/3hML1rZ
+	* Download Virtual Machine Image (with Docker Pre-Installed): <https://bit.ly/3DMaFpO>
 
 	* Import and run the ova file using VirtualBox. Username and password are student/student
 
