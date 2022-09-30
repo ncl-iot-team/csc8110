@@ -4,14 +4,14 @@ This repository contains essential materials and references for the practicals o
 
 ## Pre-Requisites
 
-1. SSH client (Remote command line) and [X2go client](https://wiki.x2go.org/doku.php) (Remote GUI)
+1. SSH client (Remote command line) and/or [X2go client](https://wiki.x2go.org/doku.php) (Remote GUI)
 
 2. Access Azure lab
     * Go to [Azure lab](https://labs.azure.com/), login with your student account
     * Turn on the virual machine. Set the password if requested
     * Click the icon next to the VM power button
 
-3. Setup remote connection
+3. Setup remote connection (Choose either one)
     * A. Remote connection via SSH
       * Copy the SSH command. This is different per account
       * If you are using SSH, you can copy this to your terminal and you will access the VM
