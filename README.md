@@ -1,32 +1,31 @@
 # CSC8110/CSC8634 Cloud Computing – Assessment 1
+
 This repository contains essential materials and references for the practicals of CSC8110 Cloud Computing module. Please read https://docs.docker.com/engine/docker-overview/ before doing the exercises.
 
 ## Pre-Requisites
-1. Tutorial Video 
 
-	Pre VirtualBox Tutorial https://bit.ly/2XH49Rp
+1. SSH client (Remote command line) and [X2go client](https://wiki.x2go.org/doku.php) (Remote GUI)
 
-2. Virtual Machine with Docker Pre-Installed   (Recommended)
+2. Access Azure lab
+    * Go to [Azure lab](https://labs.azure.com/), login with your student account
+    * Turn on the virual machine. Set the password if requested
+    * Click the icon next to the VM power button
 
-	Docker environment run seamlessly in Linux. It is recommended using the provided Virtual Machine Linux Image. Follow the below steps to setup a VM environment in your local machine.
+3. Setup remote connection
+    * A. Remote connection via SSH
+      * Copy the SSH command. This is different per account
+      * If you are using SSH, you can copy this to your terminal and you will access the VM
+      * ![image](https://user-images.githubusercontent.com/7325740/193309309-facb4716-14e6-4130-ad97-fe5ac3c4b396.png)
+    * B. Remote connenction via X2Go
+      * Do the same step as 3A
+      * Open X2go and create a new session
+      * Fill out the information as required
+      * In the session type, choose MATE
+      * Login with the username "student" and the password that you have set
+      * ![image](https://user-images.githubusercontent.com/7325740/193328954-7f08ab1a-9dbf-4543-a2d0-a4fd70b535a2.png)
 
-	* Download and install virtual box https://www.virtualbox.org/wiki/Downloads
-
-	* Download Virtual Machine Image (with Docker Pre-Installed): <https://bit.ly/3DMaFpO>
-
-	* Import and run the ova file using VirtualBox. Username and password are student/student
-
-	If you have already installed Docker for Windows, existing installation and related feature (Hyper-V) may create conflicts while running a VM image. Please disable Hyper-V, Virtual Machine Platform, Windows Hypervisor Platform, Windows Sandbox, Windows Subsystem for Linux and restart windows before running VirtualBox
-
-	Other virtualization platforms are also allowed, e.g., vmware. Additionally, if you want to use Azure Labs as your development platform, please check this video tutorial:  <https://bit.ly/3l0PAjY>
-
-
-![Disable HyperV Step 1](disableHyper-V-1.png?raw=true "Search for 'Turn Windows Features on or off'")
-![Disable HyperV Step 2](disable-HyperV.png?raw=true "Disable Hyper-V")
-
-3. Explanation References
-
-	* Container Introduction <https://www.youtube.com/watch?v=EnJ7qX9fkcU>
+4. Explanation References
+   * Container Introduction <https://www.youtube.com/watch?v=EnJ7qX9fkcU>
 
 ## Task 1: Deploy a web application component in Docker Environment
 
