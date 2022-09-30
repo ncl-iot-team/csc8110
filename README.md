@@ -13,8 +13,9 @@ This repository contains essential materials and references for the practicals o
 
 3. Setup remote connection (Choose either one)
     * A. Remote connection via SSH
+      * You can use any SSH clients. E.g. WSL, Putty, etc.
       * Copy the SSH command. This is different per account
-      * If you are using SSH, you can copy this to your terminal and you will access the VM
+      * Copy this to your terminal and you will access the VM
       * ![image](https://user-images.githubusercontent.com/7325740/193309309-facb4716-14e6-4130-ad97-fe5ac3c4b396.png)
     * B. Remote connenction via X2Go
       * Do the same step as 3A
