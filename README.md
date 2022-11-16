@@ -126,3 +126,39 @@ This repository contains essential materials and references for the practicals o
 2. Additional Hints
 
 	When you plan to verify the container statistics recorded in the MongoDB instance, you can try to deploy a mongodb express service, refer https://github.com/mongo-express/mongo-express which can be deployed in Docker environment, ref https://hub.docker.com/_/mongo-express/
+	
+## Task 5: Deploy Kubernetes using Terraform and deploy a microservice
+
+1. Enable Azure for student subscription
+
+	Go to https://azure.microsoft.com/en-us/free/students/ and login with your school account
+	
+	You will need to provide a phone number and an address
+	
+	⚠⚠⚠Warning: This adds $100 USD in your account for your coursework. Do not use it all as we cannot give you extra!⚠⚠⚠
+
+2. Cleaning up after finishing your work
+
+	⚠⚠⚠Make sure you clean up any resources you have created when you are not working on your assigment!⚠⚠⚠
+	
+	![image](https://user-images.githubusercontent.com/7325740/202251275-12707144-8293-4420-b74f-44ececd3cb03.png)
+
+	When deleting resources, ensure the check box for Azure for students is checked
+	
+	You can delete most resources with `terraform destroy`. Afterwards, go to "All resources" in your Azure portal and ensure there's nothing there
+	
+	![image](https://user-images.githubusercontent.com/7325740/202251584-be3a98a9-41ac-422e-a13a-ce0cd38290bc.png)
+	
+	![image](https://user-images.githubusercontent.com/7325740/202251643-c93d3685-42cd-4e26-900a-b0f6b75e6a4d.png)
+	
+	Delete any resource groups you may have in your account.
+	
+3. Additional hints
+
+	You will need 3 tools for this task
+	
+	* Azure CLI https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+	* kubectl https://kubernetes.io/docs/tasks/tools/install-kubectl/
+	* terraform CLI https://www.terraform.io/downloads.html
+
+	When you are creating the service principal for terraform, if you are having problems relating to idenfiferUrls not being verified, name your principal with a prefix `api://`
