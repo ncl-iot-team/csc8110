@@ -23,7 +23,7 @@ This repository contains essential materials and references for the practicals o
       * Fill out the information as required
       * In the session type, choose MATE
       * Login with the username "student" and the password that you have set
-      * ![image](https://user-images.githubusercontent.com/7325740/193328954-7f08ab1a-9dbf-4543-a2d0-a4fd70b535a2.png)
+      * ![image](https://user-images.githubusercontent.com/7325740/203366927-903e55cd-d2cc-42a0-925d-bb816d28b1f2.png)
 
 4. Explanation References
    * Container Introduction <https://www.youtube.com/watch?v=EnJ7qX9fkcU>
