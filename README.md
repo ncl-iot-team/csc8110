@@ -129,7 +129,7 @@ This repository contains essential materials and references for the practicals o
 	
 ## Task 5: Deploy Kubernetes using Terraform and deploy a microservice
 
-1. Tutorial
+1. Tutorial video
 
 	Task 5 Introduction to Terraform and Kubernetes https://bit.ly/3GGBvUs
 
