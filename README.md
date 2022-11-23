@@ -129,7 +129,10 @@ This repository contains essential materials and references for the practicals o
 	
 ## Task 5: Deploy Kubernetes using Terraform and deploy a microservice
 
-1. Enable Azure for student subscription
+1. Tutorial
+	Task 5 Introduction to Terraform and Kubernetes https://bit.ly/3GGBvUs
+
+2. Enable Azure for student subscription
 
 	Go to https://azure.microsoft.com/en-us/free/students/ and login with your school account
 	
@@ -137,7 +140,7 @@ This repository contains essential materials and references for the practicals o
 	
 	⚠⚠⚠Warning: This adds $100 USD in your account for your coursework. Do not use it all as we cannot give you extra!⚠⚠⚠
 
-2. Cleaning up after finishing your work
+3. Cleaning up after finishing your work
 
 	⚠⚠⚠Make sure you clean up any resources you have created when you are not working on your assigment!⚠⚠⚠
 	
@@ -153,12 +156,10 @@ This repository contains essential materials and references for the practicals o
 	
 	Delete any resource groups you may have in your account.
 	
-3. Additional hints
+4. Additional hints
 
 	You will need 3 tools for this task
 	
 	* Azure CLI https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 	* kubectl https://kubernetes.io/docs/tasks/tools/install-kubectl/
 	* terraform CLI https://www.terraform.io/downloads.html
-
-	When you are creating the service principal for terraform, if you are having problems relating to idenfiferUrls not being verified, name your principal with a prefix `api://`
