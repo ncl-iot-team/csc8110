@@ -44,7 +44,7 @@ This repository contains essential materials and references for the practicals o
 We provide the following images for the coursework as an alternative to Azure lab. Both links requires you to login to your school account to download
 
 * For x86_64
-    * [Download this image](https://newcastle-my.sharepoint.com/:u:/r/personal/nwhs3_newcastle_ac_uk1/Documents/VM%20Images/CSC8110-KDocker_amd64.ova?csf=1&web=1&e=5zje4m)
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
     * Requires [VMWare player](https://www.vmware.com/uk/products/workstation-player.html) to run
 * For arm64 (Mac M1/M2/etc.)
     * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nyl44_newcastle_ac_uk/EWhxOiJnYAxAsB5Ze_xIP04BD8PdEu_HV4V7EQmpH36YtQ?e=vKwSuK)
