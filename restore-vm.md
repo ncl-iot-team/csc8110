@@ -15,5 +15,10 @@ Only follow this if you accidentally deleted the VM. **You don't need to do this
 
 ## 2. Configure the virtual machine
   * Right click the newly created VM and click settings
-  * On the processor tab, give 4 virtual processors
+  * On the processor tab:
+    * Give 4 virtual processors
+  * On the security tab:
+    * Make sure secure boot is turned **ON**
+    * Change the security template to "Microsoft UEFI Certificate Authority"
+    * Turn trusted platform moduule (TPM) and Shielding **OFF**
   * Click OK
