@@ -19,7 +19,7 @@ This repository contains essential materials and references for the practicals o
     * Download the .rdp file by clicking the blue computer icon
     * Login for the VM (Both Windows and Ubuntu)
         * Username: student
-        * Password: CSC8112!
+        * Password: CSC8110!
     * For Windows
         * Directly run the file with remote desktop connection
     * For Mac
