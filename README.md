@@ -4,6 +4,8 @@ This repository contains essential materials and references for the practicals o
 
 ## Table of Contents
 
+You can choose to either do your work on Azure lab or on your own machine via a VM.
+
 * [Getting started (Azure lab)](#getting-started-azure-lab)
 	* [Azure lab troubleshooting](#azure-lab-troubleshooting)
 * [Getting started (Local virtual machine)](#getting-started-local-vm)
