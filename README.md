@@ -26,6 +26,7 @@ This repository contains essential materials and references for the practicals o
         * Download [Microsft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12) from the App Store
     * For Linux
         * Install any RDP client from your package manager
+        * When logging in, make sure the username is `student` and not `~\student`
 
 3. Access the Ubuntu VM
 	* Once you logged into the Windows desktop, open the Hyper-V Manager
@@ -45,8 +46,17 @@ We provide the following images for the coursework as an alternative to Azure la
 
 * For x86_64
     * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
-    * Requires [VMWare player](https://www.vmware.com/uk/products/workstation-player.html) to run
-* For arm64 (Mac M1/M2/etc.)
-    * Please use Azure lab due to incompatiblities with arm64.
+    * Prerequisites:
+        * VMWare player / VMWare workstation
+        * Windows, Linux and Intel Macs
+        * 30 GB+ storage
+* For arm64
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBd4d7dMsT-do6UFdbQO0YYA?e=Nbd6ma)
+    * Prerequisites:
+        * [UTM](https://getutm.app/)
+        * macOS Sequoia/macOS 15 and above
+        * 70 GB storage
+        * Rosetta
+            * In a terminal, type `sudo softwareupdate --install-rosetta`
     
 
