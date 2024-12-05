@@ -6,6 +6,8 @@ This repository contains essential materials and references for the practicals o
 
 You can choose to either do your work on Azure lab or on your own machine via a VM.
 
+Please read carefully on the troubleshoot section when you encounter an issue.
+
 * [Getting started (Azure lab)](#getting-started-azure-lab)
 	* [Azure lab troubleshooting](#azure-lab-troubleshooting)
 * [Getting started (Local virtual machine)](#getting-started-local-vm)
@@ -42,10 +44,11 @@ You can choose to either do your work on Azure lab or on your own machine via a 
 	* At the Azure lab page, click the 3 dot menu next to the connect button. Then click "Redeploy"
 * Reset the lab for any reason?
 	* At the Azure lab page, click the 3 dot menu next to the connect button. Then click "Reimage"
- 	* ![image](https://github.com/user-attachments/assets/c81706a4-b511-411c-adfa-60697be88c43)
-* "'Cloud' failed to restore" when starting the VM in Hyper-V
+ 	* <img src="https://github.com/user-attachments/assets/c81706a4-b511-411c-adfa-60697be88c43" width=25% height=25%>
+* This message box when trying to start the VM
+	* <img src="https://github.com/user-attachments/assets/fc00e723-2ee2-4dfb-8b28-b3e71715efdb" width=25% height=25%>
 	* Click "Delete saved state" on the Cloud VM
- 	* ![image](https://github.com/user-attachments/assets/9a380bcf-c3cd-4f0f-a35e-791032018e6e)
+ 	* <img src="https://github.com/user-attachments/assets/9a380bcf-c3cd-4f0f-a35e-791032018e6e" width=25% height=25%>
 * Accidentally deleted the Ubuntu VM
 	* Refer to [this link](restore-vm.md)
 
