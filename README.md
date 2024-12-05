@@ -54,6 +54,7 @@ We provide the following images for the coursework as an alternative to Azure la
     * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBd4d7dMsT-do6UFdbQO0YYA?e=Nbd6ma)
     * Prerequisites:
         * [UTM](https://getutm.app/)
+        * ARM Macs only (e.g, M1, M2, etc.)
         * macOS Sequoia/macOS 15 and above
         * 70 GB storage
         * Rosetta
