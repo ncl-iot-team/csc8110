@@ -8,10 +8,37 @@ You can choose to either do your work on Azure lab or on your own machine via a 
 
 Please read carefully on the troubleshoot section when you encounter an issue.
 
-* [Getting started (Azure lab)](#getting-started-azure-lab)
-	* [Azure lab troubleshooting](#azure-lab-troubleshooting)
 * [Getting started (Local virtual machine)](#getting-started-local-vm)
 	* [Local VM troubleshooting](#local-vm-troubleshooting)
+* [Getting started (Azure lab)](#getting-started-azure-lab)
+	* [Azure lab troubleshooting](#azure-lab-troubleshooting)
+
+ ## Getting started (Local VM)
+
+We provide the following images for the coursework as an alternative to Azure lab. Both links requires you to login to your school account to download
+
+* For x86_64
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
+    * Prerequisites:
+        * Install VMWare player / VMWare workstation, VMWare fusion for Macs
+        * Windows, Linux and Intel Macs
+        * 30 GB+ storage
+* For arm64
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBd4d7dMsT-do6UFdbQO0YYA?e=Nbd6ma)
+    * Prerequisites:
+        * Install [UTM](https://getutm.app/)
+        * ARM Macs only (e.g, M1, M2, etc.)
+        * macOS Sequoia/macOS 15 and above
+        * 70 GB storage
+        * Rosetta
+            * In a terminal, type `sudo softwareupdate --install-rosetta`
+
+## Local VM troubleshooting
+
+* [ARM Macs only] No Internet access / kubectl timeout in the VM
+	* Power off, then edit the VM
+ 	* At the network section, change the network mode to "Shared"
+  	* If that doens't work, switch it back to "Bridge" and try a different network interface
 
 ## Getting started (Azure lab)
 
@@ -51,32 +78,5 @@ Please read carefully on the troubleshoot section when you encounter an issue.
  	* <img src="https://github.com/user-attachments/assets/9a380bcf-c3cd-4f0f-a35e-791032018e6e" width=25% height=25%>
 * Accidentally deleted the Ubuntu VM
 	* Refer to [this link](restore-vm.md)
-
-## Getting started (Local VM)
-
-We provide the following images for the coursework as an alternative to Azure lab. Both links requires you to login to your school account to download
-
-* For x86_64
-    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
-    * Prerequisites:
-        * Install VMWare player / VMWare workstation, VMWare fusion for Macs
-        * Windows, Linux and Intel Macs
-        * 30 GB+ storage
-* For arm64
-    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBd4d7dMsT-do6UFdbQO0YYA?e=Nbd6ma)
-    * Prerequisites:
-        * Install [UTM](https://getutm.app/)
-        * ARM Macs only (e.g, M1, M2, etc.)
-        * macOS Sequoia/macOS 15 and above
-        * 70 GB storage
-        * Rosetta
-            * In a terminal, type `sudo softwareupdate --install-rosetta`
-
-## Local VM troubleshooting
-
-* [ARM Macs only] No Internet access / kubectl timeout in the VM
-	* Power off, then edit the VM
- 	* At the network section, change the network mode to "Shared"
-  	* If that doens't work, switch it back to "Bridge" and try a different network interface
     
 
