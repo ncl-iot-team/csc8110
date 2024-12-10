@@ -24,12 +24,12 @@ We provide the following images for the coursework as an alternative to Azure la
         * Windows, Linux and Intel Macs
         * 30 GB+ storage
 * For arm64
-    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBd4d7dMsT-do6UFdbQO0YYA?e=Nbd6ma)
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBPPKzVZmvrPjTsvCy_iq5Ag?e=4R4B4Z)
     * Prerequisites:
         * Install [UTM](https://getutm.app/)
         * ARM Macs only (e.g, M1, M2, etc.)
         * macOS Sequoia/macOS 15 and above
-        * 70 GB storage
+        * 75 GB stoage (4.9GB compressed, 69GB after decompression)
         * Rosetta
             * In a terminal, type `sudo softwareupdate --install-rosetta`
 
@@ -78,5 +78,14 @@ We provide the following images for the coursework as an alternative to Azure la
  	* <img src="https://github.com/user-attachments/assets/9a380bcf-c3cd-4f0f-a35e-791032018e6e" width=25% height=25%>
 * Accidentally deleted the Ubuntu VM
 	* Refer to [this link](restore-vm.md)
+* Booting into grub rescue (Ubuntu boots into a command line with `GRUB>`)
+	* Type the following to boot
+ 	* `set root=(hd0,gpt2)`
+  	* `linux /boot/vmlinuz root=/dev/sda2`
+  	* `initrd /boot/initrd.img`
+  	* `boot`
+  	* After booting into the Desktop, open a terminal and type the following for a permanent fix.
+  	* `sudo update-grub`
+  	* `sudo grub-install /dev/sda`
     
 
