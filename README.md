@@ -25,12 +25,14 @@ We provide the following images for the coursework as an alternative to Azure la
         * 30 GB+ storage
         * 8 GB RAM, 8 core CPU. Anything lower and you will get performance issues
 * For arm64
-    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EYbVeRLv3VROs74YSxU8dcMBPPKzVZmvrPjTsvCy_iq5Ag?e=4R4B4Z)
+    * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EQMOKf_URLFGp9BLUUZNw4EBEuo6QwQlLE44ZH-HnkFKTA?e=pkqliq)
     * Prerequisites:
         * Install [UTM](https://getutm.app/)
         * ARM Macs only (e.g, M1, M2, etc.)
         * macOS Sequoia/macOS 15 and above
-        * 75 GB stoage (4.9GB compressed, 69GB after decompression)
+        * Configure the VM memory if your mac can afford it
+        * 30+ GB stoage
+            * If you have little disk space (<65GB), do not extract the .utm from the image. Just open the file directly
         * Rosetta
             * In a terminal, type `sudo softwareupdate --install-rosetta`
 
