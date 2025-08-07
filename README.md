@@ -20,7 +20,7 @@ We provide the following images for the coursework as an alternative to Azure la
 * For x86_64
     * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
     * Prerequisites:
-        * Install VMWare player / VMWare workstation, VMWare fusion for Macs
+        * Install [VMWare player / VMWare workstation](https://www.techspot.com/downloads/189-vmware-workstation-for-windows.html), [VMWare fusion](https://www.techspot.com/downloads/2755-vmware-fusion-mac.html) for Macs
         * Windows, Linux and Intel Macs
         * 30 GB+ storage
         * 8 GB RAM, 8 core CPU. Anything lower and you will get performance issues
