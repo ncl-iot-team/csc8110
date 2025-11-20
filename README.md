@@ -17,8 +17,8 @@ Please read carefully on the troubleshoot section when you encounter an issue.
 
 We provide the following images for the coursework as an alternative to Azure lab. Both links requires you to login to your school account to download
 
-Login for the VM
 Username: student
+
 Password: CSC8110!
 
 
