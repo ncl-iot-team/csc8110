@@ -17,6 +17,10 @@ Please read carefully on the troubleshoot section when you encounter an issue.
 
 We provide the following images for the coursework as an alternative to Azure lab. Both links requires you to login to your school account to download
 
+Login for the VM
+* Username: student
+* Password: CSC8110!
+
 * For x86_64
     * [Download this image](https://newcastle-my.sharepoint.com/:u:/g/personal/nwhs3_newcastle_ac_uk1/EaJqrUewQExKv_qbtoo2KkUBPGwijmb3D-PRS-lD2bBXSA?e=QfXbU7)
     * Prerequisites:
