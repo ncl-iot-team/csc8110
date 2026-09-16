@@ -34,8 +34,8 @@ This uses VS Code's Remote Tunnels feature to connect VS Code on your own comput
     > [!NOTE]
     > You can use your personal account for this.
 5. Wait until VS Code reports that the tunnel is active (you'll see a notification, and the account icon will show a green tunnel indicator)
-6. **On your own computer**, open VS Code and sign in with the **same account** you used in step 3
-    * Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Remote Tunnels: Connect to Tunnel...**
+6. **On your own computer**, Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Remote Tunnels: Connect to Tunnel...**
+    * Sign in with the same account you used in the Apporto VM
     * Select the VM's tunnel from the list (it will be named after the VM's hostname)
 7. Once connected, open the folder you want to work with on the VM (e.g. **File > Open Folder...**)
 8. You can now drag and drop files between your computer and the VM directly in the VS Code Explorer, or use the integrated terminal to copy files across
