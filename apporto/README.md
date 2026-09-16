@@ -10,7 +10,7 @@ Click Launch to connect
 
 ## Launching applications
 
-You have launch the following GUI applicaitons from the VM:
+You can launch the following GUI applicaitons from the VM:
 
 * VSCode
   * Type `code .` in the terminal to launch VSCode
