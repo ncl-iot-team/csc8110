@@ -13,7 +13,7 @@ Click Launch to connect
 You can launch the following GUI applicaitons from the VM:
 
 * VSCode
-  * Type `code .` in the terminal to launch VSCode
+  * Type `code` in the terminal to launch VSCode
 * Firefox
   * Type `firefox` in the terminal to launch Firefox
 
