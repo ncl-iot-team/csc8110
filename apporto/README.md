@@ -30,9 +30,9 @@ This uses VS Code's Remote Tunnels feature to connect VS Code on your own comput
     ![](code-tunnel.png)
 
 3. Select **Install as a service**. Choose "use weak encryption" if prompted.
+ > [!NOTE]
+ > You can use your personal account for this step.
 4. Choose either **Sign in with GitHub** or **Sign in with Microsoft**
-    > [!NOTE]
-    > You can use your personal account for this.
 5. Wait until VS Code reports that the tunnel is active (you'll see a notification, and the account icon will show a green tunnel indicator)
 6. **On your own computer**, Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Remote Tunnels: Connect to Tunnel...**
     * Sign in with the same account you used in the Apporto VM
