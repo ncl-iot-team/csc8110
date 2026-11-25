@@ -2,9 +2,11 @@
 
 ## Getting started
 
-Go to <https:://ncl.apporto.com> and login with your school account.
+1. Login to Canvas with your school account and pick your module.
+2. Click this "Apporto Virtual Desktops"
+3. Click Launch to connect
 
-Click Launch to connect
+<img width="237" height="631" alt="canvas" src="https://github.com/user-attachments/assets/429ae81b-da21-4386-927d-9e016e02b6df" />
 
 ![](apporto.png)
 
