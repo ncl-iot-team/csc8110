@@ -16,3 +16,12 @@ Please read carefully on the troubleshoot section when you encounter an issue.
 * [Local virtual machine](local/README.md)
   * [Getting started](local/README.md#getting-started)
   * [Local VM troubleshooting](local/README.md#local-vm-troubleshooting)
+
+## Kubernetes management
+
+You are given microk8s as the Kubernetes distribution.
+
+To manage, you have the following commands
+* `microk8s kubectl` for general deployment and management
+* `microk8s helm3` for helm charts
+* `microk8s status` for current cluster status
