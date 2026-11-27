@@ -10,6 +10,7 @@ Please read carefully on the troubleshoot section when you encounter an issue.
 
 * [Apporto (Recommended)](apporto/README.md)
   * [Getting started](apporto/README.md#getting-started)
+  * [Troubleshooting](apporto/README.md#troubleshooting)
   * [Launching applications](apporto/README.md#launching-applications)
   * [File transfer from your computer](apporto/README.md#file-transfer-from-your-computer)
 * [Local virtual machine](local/README.md)
