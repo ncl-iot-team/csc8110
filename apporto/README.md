@@ -10,6 +10,65 @@
 
 ![](apporto.png)
 
+## Troubleshooting
+
+### 1. `Insufficient permissions to access MicroK8s`
+
+If running `microk8s kubectl get pods -A` returns a permission error, add your user (`aws.admin`) to the `microk8s` group and reload the session.
+
+1. **Add the user to the `microk8s` group and update `.kube` ownership**
+
+   ```bash
+   sudo usermod -a -G microk8s aws.admin
+   sudo chown -R aws.admin ~/.kube
+   newgrp microk8s
+   ```
+
+   > **Note:** `newgrp` only applies the new group to the current shell. Log out and back in (or reconnect over SSH) to apply it to all sessions.
+
+   **Verification:** Run `microk8s kubectl get pods -A` without `sudo` and confirm it outputs the pod table cleanly.
+
+### 2. Container Registry Pod Stuck in `Pending` / Older Pods Stuck in `Terminating`
+
+After a VM clone or a hostname/IP change, `microk8s kubectl get pods -A` may show older pods stuck in `Terminating` and the new `container-registry` pod stuck in `Pending`. This is caused by a stale, unreachable node (`node.kubernetes.io/unreachable` taint).
+
+1. **Remove the stale `NotReady` node**
+
+   Identify the old `NotReady` node name, then force-remove it from Kubernetes and `dqlite`:
+
+   ```bash
+   microk8s kubectl get nodes
+   sudo microk8s remove-node <old-node-name> --force
+   ```
+
+   **Verification:** Run `microk8s kubectl get nodes` and confirm only the active node appears, with status `Ready`.
+
+2. **Force-delete stuck `Terminating` pods**
+
+   Clear any lingering pods from the old node that remain in `Terminating` status:
+
+   ```bash
+   microk8s kubectl delete pod -n container-registry registry-9865b655c-7ns2j --grace-period=0 --force
+   microk8s kubectl delete pod -n kube-system calico-kube-controllers-6c99c8747f-j6n6f coredns-7745f9f87f-lt88d hostpath-provisioner-58694c9f4b-2pckr --grace-period=0 --force
+   ```
+
+   > **Note:** Pod names are specific to your cluster. Run `microk8s kubectl get pods -A | grep Terminating` to get the names of the pods that are stuck in your case.
+
+   **Verification:** Run `microk8s kubectl get pods -A` and confirm no pods remain in `Terminating` status.
+
+3. **Reset the container registry storage onto the active node**
+
+   Disable and re-enable the registry addon so its `PersistentVolumeClaim` (`registry-claim`) binds to a fresh `hostpath` volume on the active node:
+
+   ```bash
+   sudo microk8s disable registry
+   sudo microk8s enable registry
+   ```
+
+   > **Warning:** Disabling the registry deletes its PVC, so any images previously pushed to `localhost:32000` are lost. Re-push them after the registry is back up.
+
+   **Verification:** Run `microk8s kubectl get pods -n container-registry` and confirm the new `registry` pod reaches `1/1 Running`.
+   
 ## Launching applications
 
 You can launch the following GUI applicaitons from the VM:
