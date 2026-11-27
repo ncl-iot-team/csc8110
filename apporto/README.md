@@ -38,7 +38,7 @@ After a VM clone or a hostname/IP change, `microk8s kubectl get pods -A` may sho
 
    ```bash
    microk8s kubectl get nodes
-   sudo microk8s remove-node <old-node-name> --force
+   microk8s remove-node <old-node-name> --force
    ```
 
    **Verification:** Run `microk8s kubectl get nodes` and confirm only the active node appears, with status `Ready`.
@@ -61,8 +61,8 @@ After a VM clone or a hostname/IP change, `microk8s kubectl get pods -A` may sho
    Disable and re-enable the registry addon so its `PersistentVolumeClaim` (`registry-claim`) binds to a fresh `hostpath` volume on the active node:
 
    ```bash
-   sudo microk8s disable registry
-   sudo microk8s enable registry
+   microk8s disable registry
+   microk8s enable registry
    ```
 
    > **Warning:** Disabling the registry deletes its PVC, so any images previously pushed to `localhost:32000` are lost. Re-push them after the registry is back up.
